@@ -1,0 +1,95 @@
+html, body {
+    width: 100%;
+    font-family: 'Bad Script', cursive;
+    color: white;
+    background-color: #1C1B1F;
+}
+
+a, h1, h2 {
+    color: #ffffff;
+}
+h1 {
+    font-size: 55px;
+    margin: 0;
+}
+h2 {
+    font-size: 20px;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.instance-link {
+    position: relative;
+    height: 320px;
+}
+.instance-link a {
+}
+.instance-link img.face {
+    max-width: 170px;
+    max-height: 200px;
+}
+
+div.img-holder img {
+}
+div.img-holder {
+    position:absolute;
+    width: 100%;
+    bottom: 60px;
+}
+
+.instance-link > a > h2 {
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+header {
+    margin-top: 40px;
+    margin-bottom: -20px;
+    width: 100%;
+}
+
+footer > p.authors {
+    font-size: 15px;
+    border-top: 1px solid #ffffff;
+    margin-top: 30px;
+}
+
+
+/**************
+ * Background *
+ **************/
+
+.background {
+    position:fixed;
+    top    : 0;
+    bottom : -100px;
+    left   : -1000px;
+    right  : -1000px;
+
+    background: url(../imgs/bg.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-filter : blur(20px) brightness(0.5);
+    -moz-filter    : blur(20px) brightness(0.5);
+    -o-filter      : blur(20px) brightness(0.5);
+    -ms-filter     : blur(20px) brightness(0.5);
+    filter         : blur(20px) brightness(0.5);
+}
+
+
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  height:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
