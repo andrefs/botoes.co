@@ -93,3 +93,29 @@ footer > p.authors {
   margin-right: 20px;
 }
 
+
+footer > p.authors {
+    font-size: 15px;
+    border-top: 1px solid #ffffff;
+    margin-top: 30px;
+}
+
+div.share-buttons > div {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+div.share-buttons .pull-right {
+    float: none;
+}
+
+div.share.fb {
+    margin-top: -3px;
+}
+
+div.like.fb {
+    margin-top: -3px;
+}
